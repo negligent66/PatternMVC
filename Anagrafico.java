@@ -4,6 +4,7 @@ public class Anagrafico {
     RandomAccessFile dati;
 
     public Anagrafico() {
+        apriFile();
     }
 
     public void apriFile() {                        //  apre il file in lettura e scrittura
